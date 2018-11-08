@@ -1,0 +1,20 @@
+{
+  "name": "tsb-conquer",
+  "version": "1.0.0",
+  "description": "TypeScript Basic Conquer",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": ["typescript"],
+  "devDependencies": {
+    "awesome-typescript-loader": "3.4.1",
+    "typescript": "2.6.2",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.9.7"
+  },
+  "author": "😎",
+  "license": "MIT"
+}

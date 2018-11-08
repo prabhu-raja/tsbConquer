@@ -1,0 +1,5 @@
+tsc -> will show all commands
+tsc init -> will create default tsconfig.json. afterwards, cmd 'tsc' will copile .ts files to .js
+tsc --outDir dist -> compile .ts files to /dist/**.js
+tsc -w -> watch cmd on all the changes
+------------------------------------------------------------------------------------------------------------

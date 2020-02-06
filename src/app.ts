@@ -1,5 +1,5 @@
-class Sizes {
-  constructor(private sizes: string[]) { }
+abstract class Sizes {
+  constructor(protected sizes: string[]) { }
   
   set avialbleSizes(val : string[]) {
     this.sizes = val;
@@ -19,6 +19,10 @@ class Pizza extends Sizes {
       super(sizes);
   }
 
+  updateSize(newSizes: string[]) {
+    this.sizes = newSizes;
+  }
+
   addToppings(val: string) {
     this.toppings.push(val);
   }
@@ -26,4 +30,7 @@ class Pizza extends Sizes {
 
 const pizza = new Pizza('Veggie', ['sm', 'md']);
 pizza.addToppings('Black Olive');
-console.log(pizza);
+
+
+
+
